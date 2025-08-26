@@ -1,0 +1,1 @@
+Place your poster in public/images/poster.jpg (or .png) and PDFs in public/pdfs/ (investor.pdf, marketing.pdf, story-bible.pdf).
