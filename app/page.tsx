@@ -1,24 +1,38 @@
 export default function Home() {
   return (
     <main className="hero">
+      {/* Poster */}
       <img
         className="poster"
         src="/images/poster.jpg"
         alt="Red Fist Poster"
       />
 
-      {/* Keep the three buttons */}
+      {/* Bottom buttons (open PDFs in new tab) */}
       <div className="buttons">
-        <a className="btn" href="/pdfs/investor.pdf" target="_blank" rel="noreferrer">Investor PDF</a>
-        <a className="btn" href="/pdfs/marketing.pdf" target="_blank" rel="noreferrer">Marketing PDF</a>
-        <a className="btn" href="/pdfs/story-bible.pdf" target="_blank" rel="noreferrer">Draft Story Bible PDF</a>
+        <a className="btn" href="/pdfs/investor.pdf" target="_blank" rel="noreferrer">
+          Investor PDF
+        </a>
+        <a className="btn" href="/pdfs/marketing.pdf" target="_blank" rel="noreferrer">
+          Marketing PDF
+        </a>
+        <a className="btn" href="/pdfs/story-bible.pdf" target="_blank" rel="noreferrer">
+          Draft Story Bible PDF
+        </a>
       </div>
 
-      {/* Contact line */}
+      {/* Contact */}
       <div className="contact">
         <div className="contact-line">
           <span>Contact:</span>&nbsp;
-          <strong>Aaron Kushner, Ph.D.</strong>
+          <a
+            href="https://www.linkedin.com/in/aaron-kushner-phd/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Aaron Kushner, Ph.D. on LinkedIn"
+          >
+            <strong>Aaron Kushner, Ph.D.</strong>
+          </a>
           <span className="dot">•</span>
           <a href="mailto:aaron.m.kushner@gmail.com">aaron.m.kushner@gmail.com</a>
           <span className="dot">•</span>
@@ -26,5 +40,5 @@ export default function Home() {
         </div>
       </div>
     </main>
-  )
+  );
 }
