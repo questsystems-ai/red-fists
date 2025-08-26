@@ -26,7 +26,7 @@ export default function Home() {
         <div className="contact-line">
           <span>Contact:</span>&nbsp;
           <a
-            href="https://www.linkedin.com/in/aaron-kushner-phd/"
+            href="https://www.linkedin.com/in/aaron-m-kushner/"
             target="_blank"
             rel="noreferrer"
             aria-label="Aaron Kushner, Ph.D. on LinkedIn"
