@@ -17,7 +17,10 @@ export default function Home() {
           Marketing PDF
         </a>
         <a className="btn" href="/pdfs/story-bible.pdf" target="_blank" rel="noreferrer">
-          Draft Story Bible PDF
+          US Story Bible PDF
+        </a>
+        <a className="btn" href="/pdfs/story-bible-china.pdf" target="_blank" rel="noreferrer">
+          China Story Bible PDF
         </a>
       </div>
 
